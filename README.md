@@ -76,6 +76,8 @@ src/
 
 > 🖼️ *Screenshot: Displaying Book & Student Data in MySQL*
 
+![1 SQL Output](https://github.com/user-attachments/assets/d032015e-d2ae-4c25-b56d-235ec39d94d2)
+
 ---
 
 ### 2️⃣ Task 2: Filter Books by Genre
@@ -93,6 +95,8 @@ GET /books/{genre}
 ```
 
 > 🖼️ *Screenshot: Filtered books by genre*
+
+![getByGenre](https://github.com/user-attachments/assets/58f27e3c-8606-4c04-bb98-0197a7a8a925)
 
 ---
 
@@ -113,6 +117,8 @@ GET /students/{bookId}
 
 > 🖼️ *Screenshot: Students who borrowed a specific book*
 
+![borrowedStudents](https://github.com/user-attachments/assets/54be03b0-9dd7-4943-adb5-4d4edb06e10b)
+
 ---
 
 ### 4️⃣ Task 4: Borrowing Logic & Validation
@@ -132,8 +138,16 @@ POST /borrows/add
 > 🖼️ *Screenshots:*
 >
 > * Successful Borrow (`newBorrowEntry.png`)
+
+![newBorrowEntry](https://github.com/user-attachments/assets/44cd0dd1-7ab0-49f6-a3b1-08c525bc093f)
+
 > * Failure: One copy left (`borrowEntryError.png`)
+
+![borrowEntryError](https://github.com/user-attachments/assets/82863820-404c-4a56-9abc-f9ea5b948313)
+
 > * Failure: Too many unreturned books (`entityNotFound.png`)
+
+![entityNotFound](https://github.com/user-attachments/assets/f27ad544-b3fe-4196-939d-b67d05922db5)
 
 ---
 
